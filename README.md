@@ -7,23 +7,27 @@ Nous avons conteneurisé et API-sé l’application containerbank afin de pouvoi
      alt="Applications overview" />
 
 ### Bonnes pratiques
+**Archiecture**
 - [ ] Architecture micro-services
 - [ ] Architecture de données distribuées ou « sharding »
 - [ ] Architecture distribuée (pods Kubernetes)
- 
+
+**Services**
 - [ ] API Manager
 - [ ] Service Discovery
 - [ ] MOM Service
 - [ ] Monitoring & Alerting
 - [ ] Logging & Diagnostics
- 
+
+**Application**
 - [ ] Le code applicatif est versionné et unique pour tous les environnements
 - [ ] L’application est conçue « sans état » technique
 - [ ] Tolérance aux pannes (design for failure)
 - [ ] Ajout d’un identifiant de corrélation aux logs
 - [ ] Production de logs enrichies sur l’ensemble des couches
 - [ ] Mise en place des tests de santé (Health Check)
- 
+
+**Container**
 - [ ] Les instances d’application sont jetables
 - [ ] Middlewares adaptés aux conteneurs
 - [ ] Base de données Container Ready (mongoDB)
