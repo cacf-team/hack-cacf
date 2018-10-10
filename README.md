@@ -108,7 +108,7 @@
 ```
 
 
-## Equipe 
+## Team 
 
 - Jordan
 - Elyes
