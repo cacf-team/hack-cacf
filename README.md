@@ -35,6 +35,7 @@
 **Function Card**
 ```
     GET  /cards&customerId={customerId}
+    GET  /cardTypes
     GET  /cards/{cardId}
     POST /cards
     PUT  /cards/{cardId}
@@ -62,6 +63,47 @@
                      name    string
                    }
                   ]
+}
+```
+
+**customer**
+```
+{
+  id              integer($int4)
+  firstName       string
+  lastName        string
+  address         string
+  city            string
+  telephone       string
+}
+```
+
+**card**
+```
+{
+  id              integer($int4)
+  name            string
+  birthDate       string
+  cardTypeId      integer($int4)
+  customerId      integer($int4)
+}
+```
+
+**cardType**
+```
+{
+  id              integer($int4)
+  name            string
+}
+```
+
+**payment**
+```
+{
+  id              integer($int4)
+  paymentDate     string
+  description     string
+  cardId          integer($int4)
 }
 ```
 
