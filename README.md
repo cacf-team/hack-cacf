@@ -22,6 +22,7 @@
 **Function Advisor**
 ```
     GET /advisors
+    GET /specialties
 ```
 
 **Function Customer**
@@ -57,12 +58,16 @@
   id              integer($int4)
   firstName       string
   lastName        string
-  specialities    [
-                   speciality {
-                     id      integer($int4)
-                     name    string
-                   }
+  specialties     [
+                    specialtyId    string
                   ]
+}
+
+**specialty**
+```
+{
+  id      integer($int4)
+  name    string
 }
 ```
 
