@@ -1,6 +1,44 @@
 # hack-cacf
 
+Nous avons conteneurisé et API-sé l’application containerbank afin de pouvoir la déployer sur le CaaS AWS. L'application monolithique est désormais composée d'un front et de quatre services avec leurs propres données, respectant ainsi l'architecture micro-services.
 
+### Overview 
+<img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_applications-overview.png"
+     alt="Applications overview" />
+
+### Bonnes pratiques
+- [ ] Architecture micro-services
+- [ ] Architecture de données distribuées ou « sharding »
+- [ ] Architecture distribuée (pods Kubernetes)
+
+- [ ] API Manager
+- [ ] Service Discovery
+- [ ] MOM Service
+- [ ] Monitoring & Alerting
+- [ ] Logging & Diagnostics
+
+- [ ] Le code applicatif est versionné et unique pour tous les environnements
+- [ ] L’application est conçue « sans état » technique
+- [ ] Tolérance aux pannes (design for failure)
+- [ ] Ajout d’un identifiant de corrélation aux logs
+- [ ] Production de logs enrichies sur l’ensemble des couches
+- [ ] Mise en place des tests de santé (Health Check)
+
+- [ ] Les instances d’application sont jetables
+- [ ] Middlewares adaptés aux conteneurs
+- [ ] Base de données Container Ready (mongoDB)
+- [ ] Conteneur exécutant qu’un seul processus
+- [ ] conteneur écrivant que sur la sortie « stdout »
+- [ ] Conteneur mis à jour par Rolling updates
+- [ ] Conteneur consommant peu de ressources
+- [ ] Des limites sur la consommation en ressources des conteneurs sont configurées
+- [ ] Logs externalisées et centralisées
+- [ ] Gestion centralisée des configurations du socle technique (ConfigMap)
+- [ ] Toutes les données sensibles de connexion/authentification sont sécurisées (Secret)
+- [ ] Tous les accès d’un conteneur vers un autre conteneur sont explicitement déclarés
+- [ ] Le Dockerfile est considéré comme un fichier source
+- [ ] Le descripteur d’application est considéré comme un fichier source
+- [ ] Le package de l’application contient une/des image(s) ainsi qu’un descripteur
 
 ## Use cases
 
