@@ -40,7 +40,7 @@
     PUT  /cards/{cardId}
 ```
 
-**Function Card**
+**Function Payment**
 ```
     GET  /payments&cardId={cardId}
     POST /payments/
@@ -53,7 +53,15 @@
 **advisor**
 ```
 {
-  id : 
+  id              integer($int4)
+  firstName       string
+  lastName        string
+  specialities    [
+                   speciality {
+                     id      integer($int4)
+                     name    string
+                   }
+                  ]
 }
 ```
 
