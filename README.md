@@ -62,6 +62,7 @@
                     specialtyId    string
                   ]
 }
+```
 
 **specialty**
 ```
