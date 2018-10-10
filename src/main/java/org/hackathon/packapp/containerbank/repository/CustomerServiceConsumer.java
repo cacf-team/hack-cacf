@@ -3,6 +3,7 @@ package org.hackathon.packapp.containerbank.repository;
 
 import java.util.Collection;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.DataAccessException;
 import org.hackathon.packapp.containerbank.model.BaseEntity;
 import org.hackathon.packapp.containerbank.model.Customer;
@@ -13,7 +14,12 @@ import org.hackathon.packapp.containerbank.model.Customer;
  *
  * @author Wavestone
  */
-public interface CustomerRepository {
+public class CustomerServiceConsumer {
+	
+	
+	@Value("${service.url}")
+	private String serviceUrl;
+	
 
     /**
      * Retrieve <code>Customer</code>s from the data store by last name, returning all customers whose last name <i>starts</i>
@@ -23,7 +29,9 @@ public interface CustomerRepository {
      * @return a <code>Collection</code> of matching <code>Customer</code>s (or an empty <code>Collection</code> if none
      * found)
      */
-    Collection<Customer> findByLastName(String lastName) throws DataAccessException;
+    Collection<Customer> findByLastName(String lastName) {
+    	
+    }
 
     /**
      * Retrieve an <code>Customer</code> from the data store by id.
