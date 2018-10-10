@@ -20,32 +20,42 @@
 ## Resources
 
 **Function Advisor**
+```
     GET /advisors
+```
 
 **Function Customer**
+```
     GET  /customers&lastName={lastName}
     GET  /customers/{customerId}
     POST /customers
     PUT  /customers/{customerId}
+```
 
 **Function Card**
+```
     GET  /cards&customerId={customerId}
     GET  /cards/{cardId}
     POST /cards
     PUT  /cards/{cardId}
+```
 
 **Function Card**
+```
     GET  /payments&cardId={cardId}
     POST /payments/
+```
 
 
 
 ## Models
 
 **advisor**
+```
 {
   id : 
 }
+```
 
 
 ## Equipe 
