@@ -7,7 +7,7 @@ Nous avons conteneurisé et API-sé l’application containerbank afin de pouvoi
      alt="Applications overview" />
 
 ### Bonnes pratiques
-**Archiecture**
+**Architecture**
 - [ ] Architecture micro-services
 - [ ] Architecture de données distribuées ou « sharding »
 - [ ] Architecture distribuée (pods Kubernetes)
