@@ -16,7 +16,6 @@
 - [X] `Monitoring` : monitorer chaque appels et leur durée<br/>
 - [X] `Logging` : centraliser les logs de l'application
 
-
 ## Resources
 
 **Function Advisor**
@@ -51,6 +50,12 @@
 
 
 ## Models
+
+### Overview 
+<img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_models-overview.png"
+     alt="Models overview" />
+
+### Description
 
 **advisor**
 ```
