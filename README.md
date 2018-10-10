@@ -32,7 +32,7 @@ Nous avons conteneurisé et API-sé l’application containerbank afin de pouvoi
 - [ ] Middlewares adaptés aux conteneurs
 - [ ] Base de données Container Ready (mongoDB)
 - [ ] Conteneur exécutant qu’un seul processus
-- [ ] conteneur écrivant que sur la sortie « stdout »
+- [ ] Conteneur écrivant que sur la sortie « stdout »
 - [ ] Conteneur mis à jour par Rolling updates
 - [ ] Conteneur consommant peu de ressources
 - [ ] Des limites sur la consommation en ressources des conteneurs sont configurées
