@@ -1,6 +1,8 @@
 # hack-cacf
 
-Nous avons conteneurisé et API-sé l’application containerbank afin de pouvoir la déployer sur le CaaS AWS. L'application monolithique est désormais composée d'un front et de quatre services avec leurs propres données, respectant ainsi l'architecture micro-services.
+Notre objectif est de conteneuriser et d'API-ser l’application containerbank afin de pouvoir la déployer sur le CaaS AWS. L'application monolithique sera composée d'un front et de quatre services avec leurs propres données, respectant ainsi l'architecture micro-services.
+
+:construction: Le projet est en cours... .. .  :construction:
 
 ### Overview 
 <img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_applications-overview.png"
@@ -164,6 +166,6 @@ Nous avons conteneurisé et API-sé l’application containerbank afin de pouvoi
 ## Team 
 
 - Jordan
-- Elyes
+- (Elyes)
 - Manel
 - Mahfoudh
