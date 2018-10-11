@@ -4,7 +4,7 @@ Notre objectif est de conteneuriser et d'API-ser l’application containerbank a
 
 :construction: . .. ...projet en cours... .. .  :construction:
 
-### Overview 
+### Overview (target)
 <img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_applications-overview.png"
      alt="Applications overview" />
 
