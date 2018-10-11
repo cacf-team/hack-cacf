@@ -8,12 +8,12 @@ Notre objectif est de conteneuriser et d'API-ser l’application containerbank a
 <img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_applications-overview.png"
      alt="Applications overview" />
 
-### Architecture applicative (Kubernetes)
+### Application Architecture (Kubernetes)
 <img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_containers-architecture.png"
      alt="Architecture applicative (Kubernetes)" />
 
-### Bonnes pratiques
-**Générales**
+### Good practices
+**General**
 - [ ] Sécurité
 - [ ] Intégrité des données
 
