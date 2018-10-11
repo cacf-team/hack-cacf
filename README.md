@@ -2,17 +2,25 @@
 
 Notre objectif est de conteneuriser et d'API-ser l’application containerbank afin de pouvoir la déployer sur le CaaS AWS. L'application monolithique sera composée d'un front et de quatre services avec leurs propres données, respectant ainsi l'architecture micro-services.
 
-:construction: Le projet est en cours... .. .  :construction:
+:construction: . .. ...projet en cours... .. .  :construction:
 
 ### Overview 
 <img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_applications-overview.png"
      alt="Applications overview" />
 
+### Architecture applicative (Kubernetes)
+<img src="https://raw.githubusercontent.com/cacf-team/hack-cacf/master/readme_containers-architecture.png"
+     alt="Architecture applicative (Kubernetes)" />
+
 ### Bonnes pratiques
+**Générales**
+- [ ] Sécurité
+- [ ] Intégrité des données
+
 **Architecture**
 - [ ] Architecture micro-services
-- [ ] Architecture de données distribuées ou « sharding »
-- [ ] Architecture distribuée (pods Kubernetes)
+- [X] Architecture de données distribuées ou « sharding »
+- [X] Architecture distribuée (pods Kubernetes)
 
 **Services**
 - [ ] API Manager
